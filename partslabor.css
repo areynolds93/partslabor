@@ -78,7 +78,7 @@ list-style-type: none;
             li
              {
                 list-style-type: none;
-                display: inline-block;
+                display: inline-block; 
                 
                 
                 
@@ -196,12 +196,12 @@ list-style-type: none;
                 font-size: 100px;
                 font-family: futura;
                 position: relative;
-                /*padding-left: 30px;*/
+                padding-left: 30px;
                 
                 
             }
             
-            /* MENU */
+            /* MENU BAR */
             .menutopbar{
                 background-color: gold;
                 border: 2px solid transparent;
@@ -219,7 +219,7 @@ list-style-type: none;
                        
             #courses {
 			    /*border: 2px solid;*/
-                            display: inline-block;
+                display: inline-block;
 			    height: 200px;
 			    width: 100%;
 			    margin: 10px;
@@ -289,14 +289,16 @@ list-style-type: none;
             {
 	            
 	            
-	            width: auto;
+	            width: 100%;
 	            height: 100%;
+	            min-height: 800px;
 	            background-color: #fffacc;
-	            padding: 10px;
-	            top: 500px;
+	            padding-top: 50px;
 	            display: block;
 	            text-align: center;
-	            
+	            border: 2px solid;
+	            border-color: aqua;
+	            font-size: 30px;
 	             
 	            
 	            
@@ -304,16 +306,17 @@ list-style-type: none;
             .submenu1
             ul
             {
-	            /*border: 2px solid black;*/
+	           /*  border: 2px solid black; */
 	            display: inline-block;
-	            margin:  20px;
-/*                    background-color: pink;*/
-	            /*padding: 10px;*/
+                border-radius: 30px;
+	            padding: 0px;
 	            text-align: center;
 	            table-layout: fixed;
-	            top: -50px;
-	            height: 100%;
-                    width: 100%;
+	            height: 700px;
+                width: 400px;
+                padding-left: auto;
+	            padding-right: auto;
+                
 	            
 	            
 	            
@@ -328,36 +331,26 @@ list-style-type: none;
             {
 	            font-size: 18px;
 	            list-style-type: none;
+	            width: 400px;
 	            margin-top: auto;
 	            margin-bottom: auto;
-	            display: block;
+	            display: table;
+	            margin: 5px;
+	            /* background-color: white */
+	            
+            }
+            .contactbuttons
+            {
+	            background-color: #c20000;
             }
 
-			.aboutdescription
-			{
-				/*background-color: pink;*/
-				margin-left: 100px;
-				margin-right: 100px;
-				margin-top: 100px;
-				font-size: 20px;
-				line-height: 40px;
-				letter-spacing: 2px;
+			.listofdrinks {
+			/* border: 2px solid; */
+			display: inline-block;
+			width: 1400px;
+			
 			}
-			.submenu2
-            {
-	            
-	            
-	            width: auto;
-	            height:100%;
-	            margin: 0;
-	            top: 500px;
-	            display: block;
-	            text-align: center;
-	            
-	             
-	            
-	            
-            }
+			
 			.menu,
 			#about
 			{/*background-color: #fff7c8;*/
@@ -367,9 +360,9 @@ list-style-type: none;
                         .menu,
                         #about,
                         p {
-                            /*background-color: pink;*/
-                            padding-bottom: 100px;
+                            /* background-color: pink; */
                             display: inline-block;
+                            
                             
                         }
                         .menu,
@@ -384,18 +377,22 @@ list-style-type: none;
                         ;}
 			
 			.contactlist {
-				/*border: 2px solid black;*/
+				/* border: 2px solid black; */
 				text-align: center;
-                                ;
+				display: inline-block;
+				                                
 			}
                         .contactlist
                         ul {
-                            /*background-color: pink;*/
+                            /* background-color: pink; */
                             text-align: center;
-                            width: 100%;
-                            display: inline-block;
+                            border-radius: 0; 
+                            border-color: transparent;
+                             
                         }
+                        
 			.contactlist
+			ul
 			li {
 				background-color: orange;
 				list-style-type: none;
@@ -405,31 +402,14 @@ list-style-type: none;
 				margin: 50px;
 				border-radius: 10px;
 				font-size: 40px;
-				vertical-align: text-top;
+				
+				}
+				aboutdescription {
+					background-color: magenta;
+				}
                                 
 				
-			}
-			.menu,
-			#makeareservation {
-				background-color: #fff3ca; 
-			}
-			
-			.listofdrinks {
-				margin-top: 20px;
-				border: 2px solid;
-				display: inline-block;
-                                margin: 20px;
-                                padding: 20px;
-                                width: 1000px;
-                                
-                                    
-				
-			}
-			.submenu1 .listofdrinks .drink-list {
-				float: left;
-				margin: 0;
-				margin-right: 20px;
-			}
+					
             
             
             /* ........................................................ RESERVATION  ............................................................ */
